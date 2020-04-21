@@ -46,6 +46,19 @@ Note that the reward function was modified and differs from the original LunarLa
 
 ---
 
+## Init example:
+```python
+env = LunarLanderModable()
+def helipad_fn(np_random):
+        x = np_random.randint(2, 5)
+        y = np_random.randint(6, 12)
+        return x, y
+
+env.set_random_helipad_on_reset(True, helipad_fn)
+```
+
+---
+
 Based on https://github.com/openai/gym/blob/master/gym/envs/box2d/lunar_lander.py   
 Modifications by Andreas Sedlmeier (andreas.sedlmeier@ifi.lmu.de).   
 Licensed on the same terms as the rest of OpenAI Gym.
