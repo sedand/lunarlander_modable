@@ -5,7 +5,7 @@ https://arxiv.org/abs/2001.00496
 While the landing pad position is fixed in the original LunarLander environment, this version allows configurable, varying positions.   
 This way, the environment can be used for out-of-distribution or generalization research in RL.
 
-![Pad left](pad_left.png) ![Pad right](pad_right.png)
+![Pad example](example.png)
 
 ## ENVIRONMENT:
 Build the modifyable environment version using
