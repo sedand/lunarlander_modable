@@ -379,7 +379,7 @@ class LunarLanderContinuous(LunarLander):
 # ----------------
 # Position (x and y) of the landing pad is determined new on every reset.
 # The x and y position is determined via the function self.helipad_fn .
-# This functions can be specified by passing it as a parameter to the set_random_helipad_on_reset function.
+# This function can be specified by passing it as a parameter to the set_random_helipad_on_reset function.
 # The function receives a single parameter 'np_random', which is the environments seeded random generator.
 # It must return two floats, specifying the x and y coordinate of the helipad.
 # Note that the x coordinate specifies the center of the helipad in terms of 'chunks' (see update_helipad function on how these chunks are defined).
