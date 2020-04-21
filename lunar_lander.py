@@ -716,7 +716,7 @@ def demo_heuristic_lander(env, seed=None, render=False):
 if __name__ == '__main__':
     env = LunarLanderModable()
     def helipad_fn(np_random):
-            x = np_random.randint(2, 5)
+            x = np_random.randint(2, 9)
             y = np_random.randint(6, 12)
             return x, y
 
